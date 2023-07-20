@@ -1,0 +1,52 @@
+/*fun main(args:Array<String>){
+    var n = 1     //입력받은 값을 매개변수 n을 1로 할당한다.
+
+    while(n <= 10){  //n이 10보다 작거나 같을때  증량한값을 n에 포함시킨다.
+        println(n)
+        ++n
+    }
+    println(n)  //n을 출력한다. 
+}*/ 
+
+/*
+ fun main() {  
+      fun repeatWord(input:String,n:Int):String{
+          var answer:String = "repeatWord"
+          repeatWord("hi",2) == "hihi"
+          returm amswer }
+
+ }*/
+
+
+
+/*fun main() {
+    fun repeatWord(input: String, n: Int): String {     //repeatWord input을 String 문자열 선언 , n은 int로 선언하고 string출력 
+        var answer: String = input                  // 변수 answer String 은 input과 같다. 
+        repeat(n - 1) {
+            answer += input                    //answer 의 값에 증량이 input과 같다. 
+        }
+        return answer       //return 을 반환 한다. 
+    }
+
+    val result = repeatWord("hi", 2)
+    println(result)        // 출력 결과: hihi
+} */
+
+
+
+/*fun main() {
+    fun repeatWord(input: String, n: Int): String {
+        var answer: String = input
+        repeat(n - 1) {
+            answer += input
+        }
+        return answer
+    }
+
+    val result = repeatWord("easyeasyeasy",2)
+    println(result) // 출력 결과: easyeasyeasy
+} */
+
+
+
+
